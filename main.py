@@ -38,14 +38,14 @@ state_name = st.selectbox('Select State', list(state_mapping.keys()))
 state_code = state_mapping[state_name]
 
 # Sliders for SPL and RPL themes
-spl_theme1 = st.slider('SPL_THEME1', min_value=0.0, max_value=1.0, step=0.01)
-rpl_theme1 = st.slider('RPL_THEME1', min_value=0.0, max_value=1.0, step=0.01)
-spl_theme2 = st.slider('SPL_THEME2', min_value=0.0, max_value=1.0, step=0.01)
-rpl_theme2 = st.slider('RPL_THEME2', min_value=0.0, max_value=1.0, step=0.01)
-spl_theme3 = st.slider('SPL_THEME3', min_value=0.0, max_value=1.0, step=0.01)
-rpl_theme3 = st.slider('RPL_THEME3', min_value=0.0, max_value=1.0, step=0.01)
-spl_theme4 = st.slider('SPL_THEME4', min_value=0.0, max_value=1.0, step=0.01)
-rpl_theme4 = st.slider('RPL_THEME4', min_value=0.0, max_value=1.0, step=0.01)
+spl_theme1 = st.slider('SPL_THEME1', min_value=0.5, max_value=3.0, step=0.01)
+rpl_theme1 = st.slider('RPL_THEME1', min_value=0.5, max_value=3.0, step=0.01)
+spl_theme2 = st.slider('SPL_THEME2', min_value=0.5, max_value=3.0, step=0.01)
+rpl_theme2 = st.slider('RPL_THEME2', min_value=0.5, max_value=3.0, step=0.01)
+spl_theme3 = st.slider('SPL_THEME3', min_value=0.5, max_value=3.0, step=0.01)
+rpl_theme3 = st.slider('RPL_THEME3', min_value=0.5, max_value=3.0, step=0.01)
+spl_theme4 = st.slider('SPL_THEME4', min_value=0.5, max_value=3.0, step=0.01)
+rpl_theme4 = st.slider('RPL_THEME4', min_value=0.5, max_value=3.0, step=0.01)
 
 # Prediction button
 if st.button('Predict'):
